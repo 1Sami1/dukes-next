@@ -7,6 +7,7 @@ import { NextRouter } from 'next/router'
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
+      <div className={styles.overlay}>
       <Head>
         <title>Duke's Steakhouse & Bar</title>
         <meta name="description" content="Coming Soon!" />
@@ -16,7 +17,7 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <h1>Home Page</h1>
       </main>
-
+      </div>
     </div>
   )
 }

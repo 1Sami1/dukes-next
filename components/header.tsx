@@ -1,22 +1,22 @@
 import Link from 'next/link'
 import dukesLogo from '../assets/Duke-logo.svg'
 import Image from 'next/image'
+import styles from '../styles/Home.module.scss'
 
 
 const Header = () => {
   return (
-    <header>
+    <header className={styles.siteHeader}>
       <Image src={dukesLogo}
              alt="Duke's Steakhouse beige logo"
              width={200}
       />
-      <ul>
-        <li><Link href='/'>Home</Link></li>
-        <li><Link href='/menuPage'>Menu</Link></li>
-        <li><Link href='/aboutPage'>About</Link></li>
-        <li><Link href='/contactPage'>Contact</Link></li>
+      <ul className={styles.navUl} >
+        <li className={styles.navLi}><Link href='/'>Home</Link></li>
+        <li className={styles.navLi}><Link href='/menuPage'>Menu</Link></li>
+        <li className={styles.navLi}><Link href='/aboutPage'>About</Link></li>
+        <li className={styles.navLi}><Link href='/contactPage'>Contact</Link></li>
       </ul>
-
     </header>
   )
 }

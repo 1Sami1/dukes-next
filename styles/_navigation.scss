@@ -1,0 +1,14 @@
+.siteHeader{
+    display: flex;
+    .navUl{
+        display: flex;
+        list-style: none;
+        .navLi{
+            margin: 1rem;
+            a{
+                text-decoration: none;
+                color: $beigeColor;
+            }
+        }
+    }
+}
