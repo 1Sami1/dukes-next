@@ -2,9 +2,8 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Header from '../components/header'
 import styles from '../styles/Home.module.scss'
-import { NextRouter } from 'next/router'
 
-const Home: NextPage = () => {
+const Menu: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -14,11 +13,11 @@ const Home: NextPage = () => {
       </Head>
       <Header />
       <main className={styles.main}>
-        <h1>Home Page</h1>
+        <h1>Menu Page</h1>
       </main>
 
     </div>
   )
 }
 
-export default Home
+export default Menu
