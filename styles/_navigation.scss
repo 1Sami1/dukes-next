@@ -1,5 +1,18 @@
 .siteHeader{
     display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: gray;
+    .burgerIcon{
+        background-color: aqua;
+        align-items: center;
+        div{
+            width: 25px;
+            height: 3px;
+            background-color: black;
+            margin: 5px;
+        }
+    }
     .navUl{
         display: flex;
         list-style: none;
@@ -12,3 +25,15 @@
         }
     }
 }
+
+// @media (min-width: 600px) {
+//         div.hamburger-react{
+//            display: none !important;
+//         }
+    
+//     .siteHeader{
+//         .navUl{
+//             display: flex;
+//         }
+//     }
+// }
