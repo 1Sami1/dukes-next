@@ -3,8 +3,10 @@
     justify-content: space-between;
     width: 100%;
     background-color: gray;
+    image{
+        width: 50px;
+    }
     .burgerIcon{
-        background-color: aqua;
         align-items: center;
         div{
             width: 25px;
@@ -17,7 +19,7 @@
         display: flex;
         list-style: none;
         .navLi{
-            margin: 1rem;
+            margin-right: 1rem;
             a{
                 text-decoration: none;
                 color: $beigeColor;
